@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -26,9 +27,16 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "@vercel/style-guide": "^6.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-packagejson": "^2.5.0"
   },
   "engines": {
     "node": ">=20.12.0"
-  }
+  },
+  "prettier": "@vercel/style-guide/prettier"
 }
